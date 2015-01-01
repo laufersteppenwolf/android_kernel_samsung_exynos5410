@@ -370,7 +370,8 @@ KBUILD_CFLAGS   := -Wall -Werror -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -Wno-format-security -Wno-unused \
 		   -fno-delete-null-pointer-checks \
 		   -Wno-error=maybe-uninitialized \
-		   -Wno-error=array-bounds
+		   -Wno-error=array-bounds \
+		   -Wno-error=deprecated-declarations
 
 KBUILD_AFLAGS_KERNEL :=
 KBUILD_CFLAGS_KERNEL :=
